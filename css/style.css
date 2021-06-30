@@ -34,7 +34,7 @@ section
 /* Header */
 header
 {
-    background: aqua;
+    /* background: aqua; */
     padding: 10px;
 }
 
@@ -100,3 +100,11 @@ header .logo img
     background-color: white;
     font-weight: bold;
 }
+
+header
+ {
+     background-image: url("../img/jumbo.png");
+     background-size: cover;
+     background-position: top;
+     height: 70vh;
+ }

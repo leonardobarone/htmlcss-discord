@@ -14,7 +14,7 @@ body
 
 .container
 {
-    max-width: 80%;
+    max-width: 70%;
     margin: 0 auto;
 }
 
@@ -141,21 +141,60 @@ header .logo img
  }
 
 
-.col-50
+.col-70
 {
     float: left;
-    width: 60%;
+    width: 70%;
+    /* border: 1px solid black; */
+    text-align: center;
 }
 
 .col-30
 {
     float: left;
     width: 30%;
-    border: 1px solid black;
-    padding: 0% 5%;
+    /* border: 1px solid black; */
+    /* padding: 40px 80px; */
+}
+h2
+{
+    font-size: 35px;
+    line-height: 35px;
+}
+
+h3
+{
+    font-size: 30px;
 }
 
 h2 + p
 {
     margin: 20px 0px;
+    font-size: 20px;
+}
+
+h3 + p
+{
+    margin: 20px 0px;
+}
+
+section
+{
+    margin: 100px 0px;
+}
+
+section:last-child
+{
+    text-align: center;
+}
+
+.btn-blue
+{
+    background-color: #8ea1e1;
+    color: white;
+}
+
+h4 + button
+{
+    margin-top: 20px;
 }

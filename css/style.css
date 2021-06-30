@@ -34,7 +34,6 @@ section
 /* Header */
 header
 {
-    /* background: aqua; */
     padding: 10px;
 }
 
@@ -95,16 +94,54 @@ header .logo img
 {   
     text-decoration: none;
     border-style: none;
-    border-radius: 10px;
-    padding: 7px 11px;
-    background-color: white;
+    border-radius: 20px;
+    padding: 10px 15px;
     font-weight: bold;
+    cursor: pointer;
 }
 
-header
+.btn-white
+{
+    background-color: white;
+}
+
+.btn-black
+{
+    background-color: #23272a;
+    color: white;
+}
+
+.hero
  {
      background-image: url("../img/jumbo.png");
      background-size: cover;
      background-position: top;
      height: 70vh;
+     position: relative;
+ }
+
+ .title
+ {
+     color: white;
+     text-align: center;
+     width: 40%;
+     position: absolute;
+     top: 50%;
+     left: 50%;
+     transform: translate(-50%,-50%) ;
+ }
+
+ .title h1
+ {
+     font-size: 37px;
+ }
+
+ .title p
+ {
+     margin: 20px 0px;
+ }
+
+ .title .button button:first-child
+ {
+     margin-right: 15px;
  }

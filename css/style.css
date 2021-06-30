@@ -1,6 +1,102 @@
+/* Reset */
 *
 {
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+}
+
+/* Common */
+body
+{
+    font-family: 'Lato', sans-serif;
+}
+
+.container
+{
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+section
+{
+    background-color: lightgrey;
+    margin: 20px 0px;
+}
+
+.clearfix::after
+{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Header */
+header
+{
+    background: aqua;
+    padding: 10px;
+}
+
+header .logo img
+{
+    width: 100px;
+}
+
+header .logo,
+header .nav-list,
+header .button
+{
+    float: left;
+}
+
+header .logo,
+header .button
+{
+    width: 25%;
+}
+
+header .nav-list
+{
+    text-align: center;
+}
+
+header .button
+{
+    text-align: right;
+}
+
+header .nav-list
+{
+    width: 50%;
+}
+
+header .nav-list li
+{
+    display: inline-block;
+    padding-left: 15px;
+}
+
+header .nav-list li a
+{
+    text-decoration: none;
+    color: white;
+    padding: 0px;
+    font-weight: bold;
+}
+
+header .button,
+header .nav-list li a,
+header .logo img
+{
+    line-height: 27px;
+}
+.btn
+{   
+    text-decoration: none;
+    border-style: none;
+    border-radius: 10px;
+    padding: 7px 11px;
+    background-color: white;
+    font-weight: bold;
 }

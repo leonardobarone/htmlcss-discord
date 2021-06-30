@@ -51,6 +51,11 @@ header .button
 
 header .nav-list
 {
+    width: 50%;
+}
+
+header .nav-list
+{
     text-align: center;
 }
 
@@ -59,10 +64,6 @@ header .button
     text-align: right;
 }
 
-header .nav-list
-{
-    width: 50%;
-}
 
 header .nav-list li
 {
@@ -74,7 +75,6 @@ header .nav-list li a
 {
     text-decoration: none;
     color: white;
-    padding: 0px;
     font-weight: bold;
 }
 
@@ -97,6 +97,7 @@ header .logo img
 .btn-white
 {
     background-color: white;
+    color: black;
 }
 
 .btn-black
@@ -133,19 +134,24 @@ header .logo img
  .title p
  {
      margin: 20px 0px;
+     font-size: 18px;
  }
-
+ 
  .title .button button:first-child
  {
      margin-right: 15px;
- }
-
+    }
+    
+    /* Section */
+section
+{
+        margin: 100px 0px;
+}
 
 .col-70
 {
     float: left;
     width: 70%;
-    /* border: 1px solid black; */
     text-align: center;
 }
 
@@ -153,37 +159,26 @@ header .logo img
 {
     float: left;
     width: 30%;
-    /* border: 1px solid black; */
-    /* padding: 40px 80px; */
 }
-h2
+
+section h2
 {
     font-size: 35px;
     line-height: 35px;
 }
 
-h3
+section p
+{
+    margin: 18px 0px;
+    font-size: 20px;
+}
+
+section h3
 {
     font-size: 30px;
 }
 
-h2 + p
-{
-    margin: 20px 0px;
-    font-size: 20px;
-}
-
-h3 + p
-{
-    margin: 20px 0px;
-}
-
 section
-{
-    margin: 100px 0px;
-}
-
-section:last-child
 {
     text-align: center;
 }
@@ -194,7 +189,32 @@ section:last-child
     color: white;
 }
 
-h4 + button
+section h4
 {
-    margin-top: 20px;
+    font-size: xx-large;
+    margin-bottom: 15px;
+}
+
+
+/* Footer */
+footer
+{
+    color: white;
+    background-color: #23272a;
+}
+
+.col-20
+{
+    float: left;
+    width: 20%;
+}
+
+footer div.col-20:first-child
+{
+    color: red;
+}
+
+footer 
+{
+    padding: 50px 0px;
 }

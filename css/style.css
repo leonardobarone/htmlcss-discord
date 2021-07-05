@@ -211,7 +211,6 @@ footer
 
 footer .col-30
 {
-    color: red;
     width: cal(30% -50px);
     margin-right: 50px;
 }
@@ -232,4 +231,42 @@ footer .col-15 h5
 {
     font-size: 16px;
     color: #7289da;
+}
+
+footer .col-30 h2
+{
+    color: #7289da;
+    font-size: 28px;
+}
+
+.language img
+{
+    width: 20px;
+}
+
+.language
+{
+    margin: 20px 0px;
+}
+
+.social span
+{
+    margin-right: 15px;
+}
+
+.footer-bottom-left
+{
+    float: left;
+}
+
+.footer-bottom-right
+{
+    float: right;
+}
+
+.footer-bottom,
+.footer-bottom-right,
+.footer-bottom-left
+{
+    margin-top: 30px;
 }

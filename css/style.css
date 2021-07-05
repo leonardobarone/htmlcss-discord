@@ -189,10 +189,16 @@ section
     color: white;
 }
 
-section h4
+.stelle
 {
-    font-size: xx-large;
-    margin-bottom: 15px;
+    font-size: 30px;
+    padding: 30px;
+    width: 60%;
+    margin: 0 auto;
+    background-image: url("../img/stars.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: top-left;
 }
 
 
